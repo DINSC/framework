@@ -15,7 +15,7 @@ install:
 script:
   - ./vendor/bin/phpcs -s
   - ./vendor/bin/php-cs-fixer fix --diff --dry-run
-  - ./vendor/bin/kahlan --reporter=verbose --clover=coverage.xml
+  - ./vendor/bin/kahlan --config=kahlan-config.travis.php --clover=clover.xml
 
 after_success:
   - travis_retry php vendor/bin/coveralls
