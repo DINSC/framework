@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ruleset name="DISC">
-    <description>DISC Is not a Simply CMS</description>
+<ruleset name="Kyffoo">
+    <description>Kyffo is not a CMS, it's better</description>
 
     <arg name="colors" />
     <arg name="p" />

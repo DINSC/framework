@@ -1,6 +1,6 @@
 {
-    "name": "dinsc/framework",
-    "description": "DINSC Is Not Simply a CMS",
+    "name": "kyffoo/framework",
+    "description": "Kyffo is not a CMS, it's better",
     "type": "library",
     "license": "GPLv3",
     "authors": [
@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Disc\\": "src/"
+            "Kyffoo\\": "src/"
         }
     },
     "minimum-stability": "stable",
