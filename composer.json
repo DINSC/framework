@@ -1,0 +1,30 @@
+{
+    "name": "dinsc/framework",
+    "description": "DINSC Is Not Simply a CMS",
+    "type": "library",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Cyril POIDEVIN",
+            "email": "vilsafur@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Disc\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "require-dev": {
+        "kahlan/kahlan": "^3.1",
+        "squizlabs/php_codesniffer": "3.0.2",
+        "friendsofphp/php-cs-fixer": "^2.5",
+        "satooshi/php-coveralls": "^1.0"
+    },
+    "scripts": {
+        "test": "kahlan --reporter=verbose --coverage=4"
+    }
+}

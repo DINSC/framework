@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ruleset name="DISC">
+    <description>DISC Is not a Simply CMS</description>
+
+    <arg name="colors" />
+    <arg name="p" />
+
+    <file>src</file>
+    <file>spec</file>
+
+    <rule ref="PSR2"></rule>
+</ruleset>
