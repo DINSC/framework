@@ -9,7 +9,7 @@ return PhpCsFixer\Config::create()
     ->setRiskyAllowed(true)
     ->setRules([
         '@Symfony' => true,
-        'binary_operator_space' => array(
+        'binary_operator_spaces' => array(
             'align_equals' => true,
             'align_double_arrow' => true,
         ),

@@ -3,7 +3,6 @@
     <description>Kyffo is not a CMS, it's better</description>
 
     <arg name="colors" />
-    <arg name="p" />
 
     <file>src</file>
     <file>spec</file>

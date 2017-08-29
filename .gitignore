@@ -5,4 +5,5 @@
 # Project Specific
 .php_cs.cache
 composer.lock
+coverage.xml
 vendor/
